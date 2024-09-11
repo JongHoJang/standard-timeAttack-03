@@ -38,11 +38,11 @@ function App() {
   });
 
   if (isPending) {
-    return <div>로딩중입니다.</div>;
+    return <div>로딩중입니다</div>;
   }
 
   if (isError) {
-    return <div>에러입니다.</div>;
+    return <div>에러입니다</div>;
   }
 
   const onSubmitForm = (e) => {
